@@ -1,0 +1,20 @@
+class calculadora:
+    def _init_(operacion,valor_a,valor_b):
+        self.operacion=operacion
+        self.valor_a=valr_a
+        self.valor_b=valor_b
+    def comparar(valor_a,valor_b):
+        if valor_a>valor_b:
+            valor=valor_a
+        else:
+            valor=valor_b
+        return print(valor)
+    def aumentar(valor_a,valor_b):
+        valor_1=valor_a**valor_b
+        return print(valor_1)
+        
+valor_a=2
+valor_b=4
+calculadora.comparar(valor_a,valor_b)
+
+calculadora.aumentar(valor_a,valor_b)
